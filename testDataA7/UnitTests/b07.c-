@@ -1,0 +1,6 @@
+// C-F24
+main()
+{
+     output(-666);
+     outnl();
+}

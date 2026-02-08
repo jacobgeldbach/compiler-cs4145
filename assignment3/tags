@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/geldbach/cs-4145/assignment3/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(BIN)	makefile	/^$(BIN): $(OBJS) $/;"	t
+$(NAME).tab.c	makefile	/^$(NAME).tab.c $(NAME).tab.h: $(NAME).y$/;"	t
+$(NAME).tab.h	makefile	/^$(NAME).tab.c $(NAME).tab.h: $(NAME).y$/;"	t
+%.o	makefile	/^%.o: %.c $(HDRS)$/;"	t
+%.o	makefile	/^%.o: %.cpp $(HDRS)$/;"	t
+AssignK	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	e	enum:ExpKind
+BIN	makefile	/^BIN = c-$/;"	m
+Boolean	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	e	enum:ExpType
+BreakK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+CC	makefile	/^CC = g++$/;"	m
+CallK	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	e	enum:ExpKind
+Char	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	e	enum:ExpType
+CharInt	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	e	enum:ExpType
+CompoundK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+ConstantK	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	e	enum:ExpKind
+DeclK	src/globals.h	/^enum NodeKind {DeclK, StmtK, ExpK};$/;"	e	enum:NodeKind
+DeclKind	src/globals.h	/^enum DeclKind {VarK, FuncK, ParamK};$/;"	g
+ExpK	src/globals.h	/^enum NodeKind {DeclK, StmtK, ExpK};$/;"	e	enum:NodeKind
+ExpKind	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	g
+ExpType	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	g
+ForK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+FuncK	src/globals.h	/^enum DeclKind {VarK, FuncK, ParamK};$/;"	e	enum:DeclKind
+Global	src/globals.h	/^enum VarKind {None, Local, Global, Parameter, LocalStatic};$/;"	e	enum:VarKind
+HDRS	makefile	/^HDRS = scanType.h util.h globals.h ourgetopt.h$/;"	m
+INDENT	src/util.c	/^#define INDENT /;"	d	file:
+IdK	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	e	enum:ExpKind
+IfK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+InitK	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	e	enum:ExpKind
+Integer	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	e	enum:ExpType
+LDFLAGS	makefile	/^LDFLAGS = -g                  # Debug symbols for linking$/;"	m
+Local	src/globals.h	/^enum VarKind {None, Local, Global, Parameter, LocalStatic};$/;"	e	enum:VarKind
+LocalStatic	src/globals.h	/^enum VarKind {None, Local, Global, Parameter, LocalStatic};$/;"	e	enum:VarKind
+MAXCHILDREN	src/globals.h	/^#define MAXCHILDREN /;"	d
+MAXRESERVED	src/globals.h	/^#define MAXRESERVED /;"	d
+NAME	makefile	/^NAME = parser$/;"	m
+NodeKind	src/globals.h	/^enum NodeKind {DeclK, StmtK, ExpK};$/;"	g
+None	src/globals.h	/^enum VarKind {None, Local, Global, Parameter, LocalStatic};$/;"	e	enum:VarKind
+NullK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+OBJS	makefile	/^OBJS = lex.yy.o $(NAME).tab.o util.o ourgetopt.o$/;"	m
+OpK	src/globals.h	/^enum ExpKind {OpK, ConstantK, IdK, AssignK, InitK, CallK};$/;"	e	enum:ExpKind
+OpKind	src/globals.h	/^typedef int OpKind;$/;"	t	typeref:typename:int
+ParamK	src/globals.h	/^enum DeclKind {VarK, FuncK, ParamK};$/;"	e	enum:DeclKind
+Parameter	src/globals.h	/^enum VarKind {None, Local, Global, Parameter, LocalStatic};$/;"	e	enum:VarKind
+RangeK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+ReturnK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+SCANTYPE_H	src/scanType.h	/^#define SCANTYPE_H$/;"	d
+SRCS	makefile	/^SRCS = $(NAME).y $(NAME).l util.c ourgetopt.cpp$/;"	m
+SWITCH	src/ourgetopt.cpp	/^#define 	SWITCH	/;"	d	file:
+Scope	src/symbolTable.cpp	/^SymbolTable::Scope::Scope(std::string newname) {$/;"	f	class:SymbolTable::Scope
+Scope	src/symbolTable.cpp	/^class SymbolTable::Scope {$/;"	c	class:SymbolTable	file:
+StmtK	src/globals.h	/^enum NodeKind {DeclK, StmtK, ExpK};$/;"	e	enum:NodeKind
+StmtKind	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	g
+SymbolTable	src/symbolTable.cpp	/^SymbolTable::SymbolTable()$/;"	f	class:SymbolTable
+SymbolTable	src/symbolTable.h	/^class SymbolTable {$/;"	c
+TreeNode	src/globals.h	/^} TreeNode;$/;"	t	typeref:struct:treeNode
+UNINDENT	src/util.c	/^#define UNINDENT /;"	d	file:
+UndefinedType	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	e	enum:ExpType
+VarK	src/globals.h	/^enum DeclKind {VarK, FuncK, ParamK};$/;"	e	enum:DeclKind
+VarKind	src/globals.h	/^enum VarKind {None, Local, Global, Parameter, LocalStatic};$/;"	g
+Void	src/globals.h	/^enum ExpType {Void, Integer, Boolean, Char, CharInt, UndefinedType};$/;"	e	enum:ExpType
+WhileK	src/globals.h	/^enum StmtKind {NullK, IfK, WhileK, ForK, CompoundK, ReturnK, BreakK, RangeK};$/;"	e	enum:StmtKind
+_GLOBALS_H_	src/globals.h	/^#define _GLOBALS_H_$/;"	d
+_OURGETOPT_H_	src/ourgetopt.h	/^#define _OURGETOPT_H_$/;"	d
+_SYMBOLTABLE_H_	src/symbolTable.h	/^#define _SYMBOLTABLE_H_$/;"	d
+_UTIL_H_	src/util.h	/^#define _UTIL_H_$/;"	d
+__anon07e08976010a	src/globals.h	/^    union {$/;"	u	struct:treeNode
+__anon07e08976020a	src/globals.h	/^    union {$/;"	u	struct:treeNode
+and_exp	src/parser.y	/^and_exp             : and_exp AND unary_rel_exp {$/;"	l
+applyToAll	src/symbolTable.cpp	/^void SymbolTable::Scope::applyToAll(void (*action)(std::string , void *)) {$/;"	f	class:SymbolTable::Scope	typeref:typename:void
+applyToAll	src/symbolTable.cpp	/^void SymbolTable::applyToAll(void (*action)(std::string , void *))$/;"	f	class:SymbolTable	typeref:typename:void
+applyToAllGlobal	src/symbolTable.cpp	/^void SymbolTable::applyToAllGlobal(void (*action)(std::string , void *))$/;"	f	class:SymbolTable	typeref:typename:void
+arg_list	src/parser.y	/^arg_list            : arg_list COMMA exp {$/;"	l
+args	src/parser.y	/^args                : arg_list { $$ = $1; }$/;"	l
+assign_op	src/parser.y	/^assign_op           : ASGN   { $$ = ASGN; }$/;"	l
+attr	src/globals.h	/^    } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon07e08976020a
+badopt	src/ourgetopt.cpp	/^static int badopt(char *name, char *text)$/;"	f	typeref:typename:int	file:
+break_stmt	src/parser.y	/^break_stmt          : BREAK SEMI {$/;"	l
+call	src/parser.y	/^call                : ID LPAREN args RPAREN {$/;"	l
+child	src/globals.h	/^    struct treeNode *child[MAXCHILDREN]; \/\/ children of the node$/;"	m	struct:treeNode	typeref:struct:treeNode * []
+clean	makefile	/^clean: $/;"	t
+compound_stmt	src/parser.y	/^compound_stmt       : LBRACE local_decls stmt_list RBRACE {$/;"	l
+constant	src/parser.y	/^constant            : NUMBERCONST {$/;"	l
+countSymbols	src/symbolTable.cpp	/^void countSymbols(std::string sym, void *ptr) {$/;"	f	typeref:typename:void
+counter	src/symbolTable.cpp	/^int counter;$/;"	v	typeref:typename:int
+cvalue	src/globals.h	/^        unsigned char cvalue; \/\/ used when a character$/;"	m	union:treeNode::__anon07e08976020a	typeref:typename:unsigned char
+cvalue	src/scanType.h	/^    char cvalue;     \/* Any character value *\/$/;"	m	struct:token_data_s	typeref:typename:char
+debug	src/symbolTable.cpp	/^void SymbolTable::Scope::debug(bool state) {$/;"	f	class:SymbolTable::Scope	typeref:typename:void
+debug	src/symbolTable.cpp	/^void SymbolTable::debug(bool state)$/;"	f	class:SymbolTable	typeref:typename:void
+debugFlg	src/symbolTable.cpp	/^    static bool debugFlg;                      \/\/ turn on tedious debugging$/;"	m	class:SymbolTable::Scope	typeref:typename:bool	file:
+debugFlg	src/symbolTable.cpp	/^bool SymbolTable::Scope::debugFlg;$/;"	m	class:SymbolTable::Scope	typeref:typename:bool
+debugFlg	src/symbolTable.h	/^    bool debugFlg;$/;"	m	class:SymbolTable	typeref:typename:bool
+decl	src/globals.h	/^        DeclKind decl; \/\/ used when DeclK$/;"	m	union:treeNode::__anon07e08976010a	typeref:typename:DeclKind
+decl	src/parser.y	/^decl        : var_decl { $$ = $1; } $/;"	l
+decl_list	src/parser.y	/^decl_list   : decl_list decl {$/;"	l
+depth	src/symbolTable.cpp	/^int SymbolTable::depth()$/;"	f	class:SymbolTable	typeref:typename:int
+enter	src/symbolTable.cpp	/^void SymbolTable::enter(std::string name)                    $/;"	f	class:SymbolTable	typeref:typename:void
+exp	src/globals.h	/^        ExpKind exp; \/\/ used when ExpK$/;"	m	union:treeNode::__anon07e08976010a	typeref:typename:ExpKind
+exp	src/parser.y	/^exp                 : mutable assign_op exp { $/;"	l
+exp_stmt	src/parser.y	/^exp_stmt            : exp SEMI { $$ = $1; }$/;"	l
+factor	src/parser.y	/^factor              : mutable   { $$ = $1; }$/;"	l
+func_decl	src/parser.y	/^func_decl           : type_spec ID LPAREN params RPAREN compound_stmt {$/;"	l
+immutable	src/parser.y	/^immutable           : LPAREN exp RPAREN { $$ = $2; }$/;"	l
+indentno	src/util.c	/^static int indentno = 0;$/;"	v	typeref:typename:int	file:
+insert	src/symbolTable.cpp	/^bool SymbolTable::Scope::insert(std::string sym, void *ptr) {$/;"	f	class:SymbolTable::Scope	typeref:typename:bool
+insert	src/symbolTable.cpp	/^bool SymbolTable::insert(std::string sym, void *ptr)$/;"	f	class:SymbolTable	typeref:typename:bool
+insertGlobal	src/symbolTable.cpp	/^bool SymbolTable::insertGlobal(std::string sym, void *ptr)$/;"	f	class:SymbolTable	typeref:typename:bool
+isArray	src/globals.h	/^    bool isArray; \/\/ is this an array$/;"	m	struct:treeNode	typeref:typename:bool
+isStatic	src/globals.h	/^    bool isStatic; \/\/ is staticly allocated?$/;"	m	struct:treeNode	typeref:typename:bool
+iter_range	src/parser.y	/^iter_range          : simple_exp TO simple_exp {$/;"	l
+leave	src/symbolTable.cpp	/^void SymbolTable::leave()$/;"	f	class:SymbolTable	typeref:typename:void
+lex.yy.c	makefile	/^lex.yy.c: $(NAME).l $(NAME).tab.h $(HDRS)$/;"	t
+line_num	src/scanType.h	/^    int line_num;     \/* Line that this token occured on *\/$/;"	m	struct:token_data_s	typeref:typename:int
+lineno	src/globals.h	/^    int lineno; \/\/ linenum relevant to this node$/;"	m	struct:treeNode	typeref:typename:int
+local_decls	src/parser.y	/^local_decls         : local_decls scoped_var_decl { $/;"	l
+lookup	src/symbolTable.cpp	/^void * SymbolTable::lookup(std::string sym)$/;"	f	class:SymbolTable	typeref:typename:void *
+lookup	src/symbolTable.cpp	/^void *SymbolTable::Scope::lookup(std::string sym) {$/;"	f	class:SymbolTable::Scope	typeref:typename:void *
+lookupGlobal	src/symbolTable.cpp	/^void * SymbolTable::lookupGlobal(std::string sym)$/;"	f	class:SymbolTable	typeref:typename:void *
+matched_iter_stmt	src/parser.y	/^matched_iter_stmt   : WHILE simple_exp DO matched_stmt {$/;"	l
+matched_select_stmt	src/parser.y	/^matched_select_stmt : IF simple_exp THEN matched_stmt ELSE matched_stmt {$/;"	l
+matched_stmt	src/parser.y	/^matched_stmt        : matched_iter_stmt { $$ = $1; }$/;"	l
+mul_exp	src/parser.y	/^mul_exp             : mul_exp mul_op unary_exp {$/;"	l
+mul_op	src/parser.y	/^mul_op              : TIMES { $$ = TIMES; }$/;"	l
+mutable	src/parser.y	/^mutable             : ID LBRACKET exp RBRACKET {$/;"	l
+name	src/globals.h	/^        char *name; \/\/ used when IdK$/;"	m	union:treeNode::__anon07e08976020a	typeref:typename:char *
+name	src/symbolTable.cpp	/^    std::string name;                          \/\/ name of scope$/;"	m	class:SymbolTable::Scope	typeref:typename:std::string	file:
+newDeclNode	src/util.c	/^TreeNode * newDeclNode(DeclKind kind)$/;"	f	typeref:typename:TreeNode *
+newExpNode	src/util.c	/^TreeNode * newExpNode(ExpKind kind)$/;"	f	typeref:typename:TreeNode *
+newStmtNode	src/util.c	/^TreeNode * newStmtNode(StmtKind kind)$/;"	f	typeref:typename:TreeNode *
+nodekind	src/globals.h	/^    NodeKind nodekind; \/\/ type of this node$/;"	m	struct:treeNode	typeref:typename:NodeKind
+nvalue	src/scanType.h	/^    int nvalue;	     \/* Any numeric value or boolean value *\/$/;"	m	struct:token_data_s	typeref:typename:int
+op	src/globals.h	/^        OpKind op; \/\/ type of token (same as in bison)$/;"	m	union:treeNode::__anon07e08976020a	typeref:typename:OpKind
+optarg	src/ourgetopt.cpp	/^char *optarg;			\/* option argument if : in opts *\/$/;"	v	typeref:typename:char *
+opterr	src/ourgetopt.cpp	/^int opterr = 1;			\/* show error message if not 0  *\/$/;"	v	typeref:typename:int
+optind	src/ourgetopt.cpp	/^int optind = 1;			\/* next argv index              *\/$/;"	v	typeref:typename:int
+optopt	src/ourgetopt.cpp	/^int optopt;			\/* last option (export dubious) *\/$/;"	v	typeref:typename:int
+ourGetopt	src/ourgetopt.cpp	/^int ourGetopt(int argc, char **argv, char *opts)$/;"	f	typeref:typename:int
+param_id	src/parser.y	/^param_id            : ID LBRACKET RBRACKET {$/;"	l
+param_id_list	src/parser.y	/^param_id_list       : param_id_list COMMA param_id {$/;"	l
+param_list	src/parser.y	/^param_list          : param_list SEMI param_type_list {$/;"	l
+param_type_list	src/parser.y	/^param_type_list     : type_spec param_id_list {$/;"	l
+params	src/parser.y	/^params              : param_list { $$ = $1; }$/;"	l
+pointerPrintAddr	src/symbolTable.cpp	/^void pointerPrintAddr(void *data)$/;"	f	typeref:typename:void
+pointerPrintLongInteger	src/symbolTable.cpp	/^void pointerPrintLongInteger(void *data)$/;"	f	typeref:typename:void
+pointerPrintNothing	src/symbolTable.cpp	/^void pointerPrintNothing(void *data)$/;"	f	typeref:typename:void
+pointerPrintStr	src/symbolTable.cpp	/^void pointerPrintStr(void *data)$/;"	f	typeref:typename:void
+print	src/symbolTable.cpp	/^void SymbolTable::Scope::print(void (*printData)(void *)) {$/;"	f	class:SymbolTable::Scope	typeref:typename:void
+print	src/symbolTable.cpp	/^void SymbolTable::print(void (*printData)(void *))$/;"	f	class:SymbolTable	typeref:typename:void
+printSpaces	src/util.c	/^static void printSpaces(void)$/;"	f	typeref:typename:void	file:
+printToken	src/util.c	/^void printToken( OpKind op, const char* tokenString )$/;"	f	typeref:typename:void
+printTree	src/util.c	/^void printTree( TreeNode * tree ) { $/;"	f	typeref:typename:void
+program	src/parser.y	/^program     : decl_list { syntaxTree = $1; }$/;"	l
+rel_exp	src/parser.y	/^rel_exp             : sum_exp rel_op sum_exp {$/;"	l
+rel_op	src/parser.y	/^rel_op              : LT    { $$ = LT; }$/;"	l
+return_stmt	src/parser.y	/^return_stmt         : RETURN SEMI {$/;"	l
+scopeName	src/symbolTable.cpp	/^std::string SymbolTable::Scope::scopeName() {$/;"	f	class:SymbolTable::Scope	typeref:typename:std::string
+scoped_var_decl	src/parser.y	/^scoped_var_decl     : STATIC type_spec var_decl_list SEMI {$/;"	l
+sibling	src/globals.h	/^    struct treeNode *sibling; \/\/ siblings for the node$/;"	m	struct:treeNode	typeref:struct:treeNode *
+simple_exp	src/parser.y	/^simple_exp          : simple_exp OR and_exp {$/;"	l
+sp	src/ourgetopt.cpp	/^static int sp = 1;		\/* offset within option word    *\/$/;"	v	typeref:typename:int	file:
+stack	src/symbolTable.h	/^    std::vector<Scope *> stack;$/;"	m	class:SymbolTable	typeref:typename:std::vector<Scope * >
+stmt	src/globals.h	/^        StmtKind stmt; \/\/ used when StmtK$/;"	m	union:treeNode::__anon07e08976010a	typeref:typename:StmtKind
+stmt	src/parser.y	/^stmt                : matched_stmt { $$ = $1; }$/;"	l
+stmt_list	src/parser.y	/^stmt_list           : stmt_list stmt {$/;"	l
+string	src/globals.h	/^        char *string; \/\/ used when a string constant$/;"	m	union:treeNode::__anon07e08976020a	typeref:typename:char *
+subkind	src/globals.h	/^    } subkind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon07e08976010a
+sum_exp	src/parser.y	/^sum_exp             : sum_exp sum_op mul_exp {$/;"	l
+sum_op	src/parser.y	/^sum_op              : PLUS { $$ = PLUS; }$/;"	l
+svalue	src/scanType.h	/^    char *svalue;    \/* Any string value *\/$/;"	m	struct:token_data_s	typeref:typename:char *
+symbols	src/symbolTable.cpp	/^    std::map<std::string , void *> symbols;    \/\/ use an ordered map (not as fast as unordered/;"	m	class:SymbolTable::Scope	typeref:typename:std::map<std::string,void * >	file:
+tar	makefile	/^tar: $(HDRS) $(SRCS) makefile$/;"	t
+test	src/symbolTable.cpp	/^bool SymbolTable::test()$/;"	f	class:SymbolTable	typeref:typename:bool
+token_class	src/scanType.h	/^    int token_class;  \/* Token class *\/$/;"	m	struct:token_data_s	typeref:typename:int
+token_data_s	src/scanType.h	/^typedef struct token_data_s {$/;"	s
+token_data_t	src/scanType.h	/^} token_data_t;$/;"	t	typeref:struct:token_data_s
+token_str	src/scanType.h	/^    char *token_str;  \/* The actual string that was read *\/$/;"	m	struct:token_data_s	typeref:typename:char *
+treeNode	src/globals.h	/^typedef struct treeNode$/;"	s
+type	src/globals.h	/^    ExpType type; \/\/ used when ExpK or DeclK for type checking$/;"	m	struct:treeNode	typeref:typename:ExpType
+type_spec	src/parser.y	/^type_spec           : BOOL { $$ = Boolean; }$/;"	l
+unary_exp	src/parser.y	/^unary_exp           : unary_op unary_exp {$/;"	l
+unary_op	src/parser.y	/^unary_op            : MINUS     { $$ = CHSIGN; }$/;"	l
+unary_rel_exp	src/parser.y	/^unary_rel_exp       : NOT unary_rel_exp {$/;"	l
+unmatched_iter_stmt	src/parser.y	/^unmatched_iter_stmt : WHILE simple_exp DO unmatched_stmt {$/;"	l
+unmatched_select_stmt	src/parser.y	/^unmatched_select_stmt   : IF simple_exp THEN stmt {$/;"	l
+unmatched_stmt	src/parser.y	/^unmatched_stmt      : unmatched_iter_stmt { $$ = $1; }$/;"	l
+value	src/globals.h	/^        int value; \/\/ used when an integer constant or boolean$/;"	m	union:treeNode::__anon07e08976020a	typeref:typename:int
+var_decl	src/parser.y	/^var_decl    : type_spec var_decl_list SEMI {$/;"	l
+var_decl_id	src/parser.y	/^var_decl_id         : ID {$/;"	l
+var_decl_init	src/parser.y	/^var_decl_init       : var_decl_id COLON simple_exp { $/;"	l
+var_decl_list	src/parser.y	/^var_decl_list       : var_decl_list COMMA var_decl_init {$/;"	l
+words	src/symbolTable.cpp	/^std::string words[] = {"alfa", "bravo", "charlie", "dog", "echo", "foxtrot", "golf"};$/;"	v	typeref:typename:std::string[]
+wordsLen	src/symbolTable.cpp	/^int wordsLen = 7;$/;"	v	typeref:typename:int
+~Scope	src/symbolTable.cpp	/^SymbolTable::Scope::~Scope() {$/;"	f	class:SymbolTable::Scope

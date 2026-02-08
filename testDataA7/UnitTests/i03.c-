@@ -1,0 +1,7 @@
+// C-F24
+char gc[13];
+main(){
+    output(*gc);
+    {
+    }
+}

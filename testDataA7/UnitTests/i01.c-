@@ -1,0 +1,7 @@
+// C-F24
+int ga:111;
+main(){
+    output(ga);
+    {
+    }
+}

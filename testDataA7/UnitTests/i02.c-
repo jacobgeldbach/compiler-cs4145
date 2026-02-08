@@ -1,0 +1,7 @@
+// C-F24
+bool gb:true;
+main(){
+    outputb(gb);
+    {
+    }
+}

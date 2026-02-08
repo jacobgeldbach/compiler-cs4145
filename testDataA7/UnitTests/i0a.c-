@@ -1,0 +1,7 @@
+// C-F24
+main(){
+    char yy:'a';
+    outputc(yy);
+    {
+    }
+}

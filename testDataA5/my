@@ -1,0 +1,44 @@
+ERROR(2): Syntax error, unexpected identifier "be", expecting '('.
+ERROR(3): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(5): Syntax error, unexpected "to", expecting ',' or ';'.
+ERROR(6): Syntax error, unexpected "by", expecting ',' or ';'.
+ERROR(7): Syntax error, unexpected identifier "more", expecting '('.
+ERROR(7): Syntax error, unexpected "and".
+ERROR(9): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(9): Syntax error, unexpected identifier "a", expecting ',' or ';'.
+ERROR(10): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(10): Invalid or misplaced input character: '.'. Character Ignored.
+ERROR(11): Syntax error, unexpected identifier "sleep", expecting '('.
+ERROR(11): Syntax error, unexpected "to", expecting ',' or ';'.
+ERROR(11): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(11): Syntax error, unexpected identifier "s", expecting ',' or ';'.
+ERROR(12): Syntax error, unexpected identifier "in", expecting '('.
+ERROR(14): Syntax error, unexpected identifier "give", expecting ',' or ';'.
+ERROR(14): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(16): Syntax error, unexpected identifier "who", expecting '('.
+ERROR(17): Syntax error, unexpected identifier "oppressor", expecting ',' or ';'.
+ERROR(17): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(17): Syntax error, unexpected identifier "proud", expecting ',' or ';'.
+ERROR(17): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(18): Syntax error, unexpected identifier "pangs", expecting ',' or ';'.
+ERROR(18): Syntax error, unexpected identifier "law", expecting ',' or ';'.
+ERROR(18): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(19): Syntax error, unexpected identifier "insolence", expecting ',' or ';'.
+ERROR(21): Syntax error, unexpected identifier "he", expecting ',' or ';'.
+ERROR(23): Syntax error, unexpected identifier "grunt", expecting ',' or ';'.
+ERROR(24): Syntax error, unexpected identifier "that", expecting ',' or ';'.
+ERROR(25): Syntax error, unexpected identifier "undiscover", expecting ',' or ';'.
+ERROR(25): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(26): Syntax error, unexpected identifier "the", expecting ',' or ';'.
+ERROR(30): Syntax error, unexpected identifier "thus", expecting '('.
+ERROR(31): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(32): Syntax error, unexpected identifier "enterprises", expecting ',' or ';'.
+ERROR(34): Syntax error, unexpected identifier "lose", expecting ',' or ';'.
+ERROR(34): Invalid or misplaced input character: '.'. Character Ignored.
+ERROR(34): Invalid or misplaced input character: '!'. Character Ignored.
+ERROR(35): Invalid or misplaced input character: '!'. Character Ignored.
+ERROR(35): Syntax error, unexpected identifier "thy", expecting ',' or ';'.
+ERROR(36): Invalid or misplaced input character: '''. Character Ignored.
+ERROR(36): Invalid or misplaced input character: '.'. Character Ignored.
+Number of warnings: 0
+Number of errors: 42

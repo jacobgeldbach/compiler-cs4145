@@ -1,0 +1,13 @@
+WARNING(9): The variable 'y' seems not to be used.
+WARNING(10): The variable 'y' seems not to be used.
+WARNING(13): Variable 'iorek' may be uninitialized when used here.
+WARNING(16): Variable 'y' may be uninitialized when used here.
+WARNING(18): The variable 'y' seems not to be used.
+WARNING(18): The variable 'z' seems not to be used.
+WARNING(4): The variable 'b' seems not to be used.
+WARNING(4): The variable 'c' seems not to be used.
+WARNING(4): The variable 'd' seems not to be used.
+WARNING(6): The variable 'w' seems not to be used.
+ERROR(LINKER): A function named 'main()' must be defined.
+Number of warnings: 10
+Number of errors: 1

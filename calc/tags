@@ -1,0 +1,187 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIN	makefile	/^BIN = calc$/;"	m
+CC	makefile	/^CC = g++$/;"	m
+DOCS	makefile	/^DOCS = calcGrammar.pdf$/;"	m
+EXIT_SUCCESS	calc.tab.c	292;"	d	file:
+EXIT_SUCCESS	calc.tab.c	320;"	d	file:
+HDRS	makefile	/^HDRS = scanType.h$/;"	m
+ID	calc.tab.c	/^    ID = 260$/;"	e	enum:yytokentype	file:
+ID	calc.tab.h	/^    ID = 260$/;"	e	enum:yytokentype
+NUMBER	calc.tab.c	/^    NUMBER = 259,$/;"	e	enum:yytokentype	file:
+NUMBER	calc.tab.h	/^    NUMBER = 259,$/;"	e	enum:yytokentype
+OBJS	makefile	/^OBJS = lex.yy.o $(BIN).tab.o$/;"	m
+QUIT	calc.tab.c	/^    QUIT = 258,$/;"	e	enum:yytokentype	file:
+QUIT	calc.tab.h	/^    QUIT = 258,$/;"	e	enum:yytokentype
+SCANTYPE_H	scanType.h	2;"	d
+SRCS	makefile	/^SRCS = $(BIN).y  $(BIN).l$/;"	m
+TokenData	scanType.h	/^struct TokenData {$/;"	s
+YYABORT	calc.tab.c	577;"	d	file:
+YYACCEPT	calc.tab.c	576;"	d	file:
+YYBACKUP	calc.tab.c	583;"	d	file:
+YYBISON	calc.tab.c	44;"	d	file:
+YYBISON_VERSION	calc.tab.c	47;"	d	file:
+YYCASE_	calc.tab.c	924;"	d	file:
+YYCASE_	calc.tab.c	934;"	d	file:
+YYCOPY	calc.tab.c	384;"	d	file:
+YYCOPY	calc.tab.c	387;"	d	file:
+YYCOPY_NEEDED	calc.tab.c	359;"	d	file:
+YYDEBUG	calc.tab.c	116;"	d	file:
+YYDEBUG	calc.tab.h	37;"	d
+YYDPRINTF	calc.tab.c	614;"	d	file:
+YYDPRINTF	calc.tab.c	729;"	d	file:
+YYEMPTY	calc.tab.c	573;"	d	file:
+YYEOF	calc.tab.c	574;"	d	file:
+YYERRCODE	calc.tab.c	602;"	d	file:
+YYERROR	calc.tab.c	578;"	d	file:
+YYERROR_VERBOSE	calc.tab.c	104;"	d	file:
+YYERROR_VERBOSE	calc.tab.c	105;"	d	file:
+YYERROR_VERBOSE	calc.tab.c	107;"	d	file:
+YYERROR_VERBOSE	calc.tab.c	84;"	d	file:
+YYFINAL	calc.tab.c	400;"	d	file:
+YYFPRINTF	calc.tab.c	611;"	d	file:
+YYFREE	calc.tab.c	330;"	d	file:
+YYINITDEPTH	calc.tab.c	738;"	d	file:
+YYLAST	calc.tab.c	402;"	d	file:
+YYMALLOC	calc.tab.c	324;"	d	file:
+YYMAXDEPTH	calc.tab.c	749;"	d	file:
+YYMAXUTOK	calc.tab.c	416;"	d	file:
+YYNNTS	calc.tab.c	407;"	d	file:
+YYNRULES	calc.tab.c	409;"	d	file:
+YYNSTATES	calc.tab.c	411;"	d	file:
+YYNTOKENS	calc.tab.c	405;"	d	file:
+YYPACT_NINF	calc.tab.c	484;"	d	file:
+YYPOPSTACK	calc.tab.c	1049;"	d	file:
+YYPULL	calc.tab.c	59;"	d	file:
+YYPURE	calc.tab.c	53;"	d	file:
+YYPUSH	calc.tab.c	56;"	d	file:
+YYRECOVERING	calc.tab.c	581;"	d	file:
+YYSIZE_MAXIMUM	calc.tab.c	203;"	d	file:
+YYSIZE_T	calc.tab.c	192;"	d	file:
+YYSIZE_T	calc.tab.c	194;"	d	file:
+YYSIZE_T	calc.tab.c	197;"	d	file:
+YYSIZE_T	calc.tab.c	199;"	d	file:
+YYSKELETON_NAME	calc.tab.c	50;"	d	file:
+YYSTACK_ALLOC	calc.tab.c	278;"	d	file:
+YYSTACK_ALLOC	calc.tab.c	282;"	d	file:
+YYSTACK_ALLOC	calc.tab.c	287;"	d	file:
+YYSTACK_ALLOC	calc.tab.c	310;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	calc.tab.c	307;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	calc.tab.c	313;"	d	file:
+YYSTACK_BYTES	calc.tab.c	355;"	d	file:
+YYSTACK_FREE	calc.tab.c	301;"	d	file:
+YYSTACK_FREE	calc.tab.c	311;"	d	file:
+YYSTACK_GAP_MAXIMUM	calc.tab.c	351;"	d	file:
+YYSTACK_RELOCATE	calc.tab.c	366;"	d	file:
+YYSTYPE	calc.tab.c	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	calc.tab.c	/^union YYSTYPE$/;"	u	file:
+YYSTYPE	calc.tab.h	/^typedef union YYSTYPE YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE	calc.tab.h	/^union YYSTYPE$/;"	u
+YYSTYPE_IS_DECLARED	calc.tab.c	148;"	d	file:
+YYSTYPE_IS_DECLARED	calc.tab.h	69;"	d
+YYSTYPE_IS_TRIVIAL	calc.tab.c	147;"	d	file:
+YYSTYPE_IS_TRIVIAL	calc.tab.h	68;"	d
+YYTABLE_NINF	calc.tab.c	489;"	d	file:
+YYTERROR	calc.tab.c	601;"	d	file:
+YYTOKENTYPE	calc.tab.c	124;"	d	file:
+YYTOKENTYPE	calc.tab.h	45;"	d
+YYTRANSLATE	calc.tab.c	418;"	d	file:
+YYUNDEFTOK	calc.tab.c	415;"	d	file:
+YYUSE	calc.tab.c	246;"	d	file:
+YYUSE	calc.tab.c	248;"	d	file:
+YY_	calc.tab.c	209;"	d	file:
+YY_	calc.tab.c	213;"	d	file:
+YY_ATTRIBUTE	calc.tab.c	221;"	d	file:
+YY_ATTRIBUTE	calc.tab.c	223;"	d	file:
+YY_ATTRIBUTE_PURE	calc.tab.c	228;"	d	file:
+YY_ATTRIBUTE_UNUSED	calc.tab.c	232;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	calc.tab.c	253;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	calc.tab.c	263;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	calc.tab.c	257;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	calc.tab.c	264;"	d	file:
+YY_INITIAL_VALUE	calc.tab.c	260;"	d	file:
+YY_INITIAL_VALUE	calc.tab.c	267;"	d	file:
+YY_LOCATION_PRINT	calc.tab.c	622;"	d	file:
+YY_NULLPTR	calc.tab.c	96;"	d	file:
+YY_NULLPTR	calc.tab.c	98;"	d	file:
+YY_REDUCE_PRINT	calc.tab.c	719;"	d	file:
+YY_REDUCE_PRINT	calc.tab.c	732;"	d	file:
+YY_STACK_PRINT	calc.tab.c	688;"	d	file:
+YY_STACK_PRINT	calc.tab.c	731;"	d	file:
+YY_SYMBOL_PRINT	calc.tab.c	626;"	d	file:
+YY_SYMBOL_PRINT	calc.tab.c	730;"	d	file:
+YY_YY_CALC_TAB_H_INCLUDED	calc.tab.c	113;"	d	file:
+YY_YY_CALC_TAB_H_INCLUDED	calc.tab.h	34;"	d
+_Noreturn	calc.tab.c	238;"	d	file:
+_Noreturn	calc.tab.c	240;"	d	file:
+alloca	calc.tab.c	285;"	d	file:
+expression	calc.y	/^expression    : ID '=' expression   { vars[$1->idIndex] = $3; $$ = $3;}$/;"	l
+factor	calc.y	/^factor        : ID                  { $$ = vars[$1->idIndex]; }$/;"	l
+idIndex	scanType.h	/^    int idIndex;     \/\/ index for id$/;"	m	struct:TokenData
+linenum	scanType.h	/^    int linenum;     \/\/ what line did this token occur on?$/;"	m	struct:TokenData
+main	calc.tab.c	/^int main(int argc, char *argv[])$/;"	f
+mulexp	calc.y	/^mulexp        : mulexp '*' unary   { $$ = $1 * $3; }$/;"	l
+numValue	scanType.h	/^    double numValue; \/\/ the value of the number as a DOUBLE!$/;"	m	struct:TokenData
+short	calc.tab.c	163;"	d	file:
+statement	calc.y	/^statement     : '\\n'$/;"	l
+statementlist	calc.y	/^statementlist : statementlist statement$/;"	l
+sumexp	calc.y	/^sumexp        : sumexp '+' mulexp     { $$ = $1 + $3; }$/;"	l
+tokenData	calc.tab.c	/^    TokenData *tokenData;$/;"	m	union:YYSTYPE	file:
+tokenData	calc.tab.h	/^    TokenData *tokenData;$/;"	m	union:YYSTYPE
+tokenclass	scanType.h	/^    int tokenclass;  \/\/ token class$/;"	m	struct:TokenData
+tokenstr	scanType.h	/^    char *tokenstr;$/;"	m	struct:TokenData
+unary	calc.y	/^unary         : '-' unary          { $$ = - $2; }$/;"	l
+value	calc.tab.c	/^    double value;$/;"	m	union:YYSTYPE	file:
+value	calc.tab.h	/^    double value;$/;"	m	union:YYSTYPE
+vars	calc.tab.c	/^double vars[26];    $/;"	v
+yy_reduce_print	calc.tab.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_stack_print	calc.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_symbol_print	calc.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	calc.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yyalloc	calc.tab.c	/^union yyalloc$/;"	u	file:
+yychar	calc.tab.c	/^int yychar;$/;"	v
+yycheck	calc.tab.c	/^static const yytype_uint8 yycheck[] =$/;"	v	file:
+yyclearin	calc.tab.c	572;"	d	file:
+yydebug	calc.tab.c	/^int yydebug;$/;"	v
+yydefact	calc.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	calc.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	calc.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyerrok	calc.tab.c	571;"	d	file:
+yyerror	calc.tab.c	/^void yyerror(const char *msg)$/;"	f
+yylval	calc.tab.c	/^YYSTYPE yylval;$/;"	v
+yynerrs	calc.tab.c	/^int yynerrs;$/;"	v
+yypact	calc.tab.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	calc.tab.c	486;"	d	file:
+yyparse	calc.tab.c	/^yyparse (void)$/;"	f
+yypgoto	calc.tab.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yyr1	calc.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	calc.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrline	calc.tab.c	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyss_alloc	calc.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	calc.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	calc.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	calc.tab.c	773;"	d	file:
+yystrlen	calc.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	calc.tab.c	757;"	d	file:
+yysyntax_error	calc.tab.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	calc.tab.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yytable_value_is_error	calc.tab.c	491;"	d	file:
+yytname	calc.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	calc.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	calc.tab.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	calc.tab.h	/^  enum yytokentype$/;"	g
+yytoknum	calc.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	calc.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	calc.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	calc.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	calc.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	calc.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	calc.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	calc.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	calc.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	calc.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyvs_alloc	calc.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:

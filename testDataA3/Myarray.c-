@@ -1,0 +1,4 @@
+WARNING(9): Variable 'c' may be uninitialized when used here.
+ERROR(11): Symbol 'output' is not declared.
+ERROR(12): Symbol 'output' is not declared.
+ERROR(13): Symbol 'output' is not declared.

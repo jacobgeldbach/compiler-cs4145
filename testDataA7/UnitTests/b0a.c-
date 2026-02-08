@@ -1,0 +1,6 @@
+// C-F24
+main()
+{
+     outputb(true  or  true);
+     outnl();
+}
